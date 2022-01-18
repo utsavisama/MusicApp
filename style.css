@@ -1,0 +1,33 @@
+body{
+    background-image: url("background1.jpg");
+    background-size: cover;
+    background-position:cover;
+}
+
+.heading{
+    margin: 0%;
+    width: 100%;
+    font-size: 27px;
+}
+
+.note{
+    font-size: 15px;
+    color: rgb(108, 7, 209);
+}
+.play_button{
+    margin-top: 74px
+}
+
+.stop1_button{
+    margin-top: 40px;
+}
+
+
+
+canvas{
+    border: 5px solid rgb(17, 209, 75);
+    border-radius: 30px;
+}
+
+
+
