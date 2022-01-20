@@ -1,4 +1,4 @@
-var prettySavage = ""
+var pretty_savage = ""
 var prettySavage2= ""
 
 function setup(){
@@ -11,7 +11,7 @@ function setup(){
 }
 
 function preload(){
-    prettySavage = loadSound("prettySavage.mp3");
+    pretty_savage = loadSound("pretty_savage.mp3");
 }
 
 
@@ -19,10 +19,10 @@ function draw(){
     image(video,0,0,400,320)
 }
 
-function prettySavage(){
-    prettySavage.play()
+function play(){
+    pretty_savage.play()
 }
 
 function stop(){
-    prettySavage.stop()
+    pretty_savage.stop()
 }
